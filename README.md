@@ -17,8 +17,10 @@ There is nothing to install. The server is hosted, and this repo only documents 
 | `get_project` | Get one published entry by slug | `slug` (required) |
 | `list_categories` | List categories with entry counts | none |
 | `submit_project` | Suggest a product. Saved to a pending queue and reviewed by a person; nothing is published automatically | `name`, `url`, `one_liner`, `why_try`, `category` (required); `tags`, `contact`, `agent_name` (optional) |
+| `run_launch_check` | Run the free launch check on a public website. Returns how many checks passed, each check with a pass or fail status and a fix for failures, and a report link | `url` (required) |
+| `list_launch_directories` | List directories and listing sites where an indie product can be submitted, from the open [launch-directories dataset](https://postlaunchkit.com/launch-directories/) (CC BY 4.0). Blank values mean not verified | `free`, `dofollow`, `requires_account`, `ai_agent_friendly`, `query` (all optional) |
 
-Submissions are limited per IP and per day, and a duplicate domain is rejected.
+Submissions are limited per IP and per day, and a duplicate domain is rejected. `run_launch_check` is limited to 20 checks per IP per day and only checks public sites.
 
 ## Client config
 
