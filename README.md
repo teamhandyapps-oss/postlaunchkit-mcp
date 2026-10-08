@@ -50,6 +50,7 @@ curl -s -X POST https://postlaunchkit.com/mcp \
 - OpenAPI spec for the REST API: https://postlaunchkit.com/openapi.json
 - llms.txt: https://postlaunchkit.com/llms.txt
 - Directory: https://postlaunchkit.com/directory/
+- Official MCP Registry entry (v1.2.0): https://registry.modelcontextprotocol.io/v0.1/servers/io.github.teamhandyapps-oss%2Fpostlaunchkit/versions/1.2.0
 
 ## Licence
 
