@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.teamhandyapps-oss/postlaunchkit",
+  "title": "PostLaunchKit",
+  "description": "Search reviewed free tools, submit for review, run launch checks, and find launch directories.",
+  "version": "1.2.0",
+  "websiteUrl": "https://postlaunchkit.com",
+  "repository": {
+    "url": "https://github.com/teamhandyapps-oss/postlaunchkit-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://postlaunchkit.com/mcp"
+    }
+  ]
+}
